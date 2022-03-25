@@ -1,0 +1,1 @@
+# Digital Rain Prank Payload for the S2 WiFi Nugget
