@@ -23,7 +23,7 @@ DELAY 700
 STRING brew install automake cmatrix
 DELAY 100
 ENTER 
-DELAY 10000
+DELAY 20000
 STRING cmatrix
 DELAY 100
 ENTER
