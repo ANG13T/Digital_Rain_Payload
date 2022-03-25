@@ -12,6 +12,8 @@ STRING cd ~
 DELAY 100
 ENTER
 DELAY 100
+GUI CTRL f
+DELAY 700
 STRING brew install automake cmatrix
 DELAY 100
 ENTER 
