@@ -1,5 +1,5 @@
-REM Digital Rain Payload inspired by the Matrix, by @angelina-tsuboi 2022 (made with neo: https://github.com/st3w/neo)
-REM run brew install automake
+REM Digital Rain Payload inspired by the Matrix, by @angelina-tsuboi 2022 (runs cmatrix command: https://github.com/abishekvashok/cmatrix)
+REM Only works for Mac with Homebrew
 GUI SPACE
 DELAY 100
 STRING terminal.app
@@ -12,14 +12,10 @@ STRING cd ~
 DELAY 100
 ENTER
 DELAY 100
-STRING git clone https://github.com/st3w/neo.git
+STRING brew install automake cmatrix
 DELAY 100
 ENTER 
-DELAY 5000
-STRING cd neo
-DELAY 100
-ENTER
-DELAY 100
-STRING ./autogen.sh
+DELAY 10000
+STRING cmatrix
 DELAY 100
 ENTER
