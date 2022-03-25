@@ -1,4 +1,4 @@
-REM Extended Warranty Reminder, opens TextEdit on MacOS and types contents of spam voicemail, by @Skickar 2022
+REM Digital Rain Payload inspired by the Matrix, by @angelina-tsuboi 2022 (made with neo: https://github.com/st3w/neo)
 GUI SPACE
 DELAY 100
 STRING terminal.app
@@ -12,4 +12,6 @@ DELAY 100
 ENTER
 DELAY 100
 STRING git clone https://github.com/st3w/neo.git
+DELAY 100
+ENTER 
 DELAY 100
