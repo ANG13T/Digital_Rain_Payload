@@ -1,5 +1,11 @@
-REM Digital Rain Payload inspired by the Matrix, by @angelina-tsuboi 2022 (runs cmatrix command: https://github.com/abishekvashok/cmatrix)
-REM Only works for Mac with Homebrew
+REM Title: Digital Rain 
+REM Author:	Angelina Tsuboi
+REM Description: Opens a terminal window and produces a digital rain effect inspired by the Matrix using cmatrix
+REM Target:	macOS 11.0+ with Homebrew
+REM Version:	1.0
+REM Category:	Prank
+REM Source: https://github.com/angelina-tsuboi/Digital_Rain_Payload
+
 GUI SPACE
 DELAY 100
 STRING terminal.app
