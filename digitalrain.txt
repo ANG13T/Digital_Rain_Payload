@@ -1,4 +1,5 @@
 REM Digital Rain Payload inspired by the Matrix, by @angelina-tsuboi 2022 (made with neo: https://github.com/st3w/neo)
+REM run brew install automake
 GUI SPACE
 DELAY 100
 STRING terminal.app
@@ -14,4 +15,11 @@ DELAY 100
 STRING git clone https://github.com/st3w/neo.git
 DELAY 100
 ENTER 
+DELAY 5000
+STRING cd neo
 DELAY 100
+ENTER
+DELAY 100
+STRING ./autogen.sh
+DELAY 100
+ENTER
